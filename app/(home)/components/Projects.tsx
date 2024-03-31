@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiSass,
   SiTailwindcss,
+  SiVite,
 } from "react-icons/si";
 import Title from "@/app/(home)/components/layout/Title";
 import Link from "next/link";
@@ -41,7 +42,7 @@ const Projects = () => {
     },
     {
       title: "Readme.GPT",
-      techStack: [SiJavascript, SiTailwindcss, SiExpress],
+      techStack: [SiJavascript, SiTailwindcss, SiExpress, SiVite],
       cover: "/projects/project-3.png",
       github: "https://github.com/darkhanakh/readme-gpt",
       background: "border-rose-500",
