@@ -2,6 +2,7 @@ import React from "react";
 import Header from "@/app/(home)/components/Header";
 import Hero from "@/app/(home)/components/Hero";
 import Skills from "@/app/(home)/components/Skills";
+import Projects from "@/app/(home)/components/Projects";
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
       </div>
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
+        <Projects />
       </div>
     </div>
   );

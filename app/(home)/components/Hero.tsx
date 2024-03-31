@@ -3,17 +3,26 @@ import React from "react";
 import { MovingBorderButton } from "@/components/ui/moving-button";
 import { FaSuitcase } from "react-icons/fa";
 import Title from "@/app/(home)/components/layout/Title";
+import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
 const Hero: React.FC = () => {
+  const words = [
+    {
+      text: "I'm",
+    },
+    {
+      text: "Darkhan",
+      className: "underline underline-offset-8 decoration-green-500",
+    },
+  ];
+
   return (
     <div className="min-h-[60vh] flex flex-col-reverse items-center justify-between gap-14 lg:flex-row lg:gap-0">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold ">
           Nice to meet you!{" "}
-          <span className="inline-block animate-wave">👋</span> <br />{" "}
-          <span className="underline underline-offset-8 decoration-green-500">
-            {"I'm Darkhan."}
-          </span>
+          <span className="inline-block animate-wave">👋</span> <br />
+          <TypewriterEffect words={words} className="inline" />
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
           {`Based in Kazakhstan, I'm a software engineer who loves building things
