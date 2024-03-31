@@ -17,12 +17,12 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-[60vh] flex flex-col-reverse items-center justify-between gap-14 lg:flex-row lg:gap-0">
+    <div className="min-h-[60vh] flex flex-col-reverse items-center justify-between gap-14 lg:flex-row lg:gap-0 animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold ">
           Nice to meet you!{" "}
           <span className="inline-block animate-wave">👋</span> <br />
-          <TypewriterEffect words={words} className="inline" />
+          <TypewriterEffect words={words} className="inline-block" />
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
           {`Based in Kazakhstan, I'm a software engineer who loves building things

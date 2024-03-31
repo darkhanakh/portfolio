@@ -66,6 +66,26 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "k-move-up": {
+          from: {
+            transform: "translateY(10px)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
+        },
+        "k-move-down": {
+          from: {
+            transform: "translateY(-10px)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -89,6 +109,8 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         wave: "wave-animation 2.5s linear infinite",
+        "move-up": "k-move-up 1s linear forwards",
+        "move-down": "k-move-down 1s linear forwards",
       },
       transformOrigin: {
         "70": "70% 70%",
