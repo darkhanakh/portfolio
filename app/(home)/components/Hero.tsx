@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { MovingBorderButton } from "@/components/moving-button";
+import { MovingBorderButton } from "@/components/ui/moving-button";
 import { FaSuitcase } from "react-icons/fa";
+import Title from "@/app/(home)/components/layout/Title";
 
 const Hero: React.FC = () => {
   return (
@@ -23,13 +24,7 @@ const Hero: React.FC = () => {
           href="mailto:darkhanahmetov2005@gmail.com"
           className="inline-block group"
         >
-          <div>
-            <h1 className="text-3xl font-bold group-hover:text-green-400 transition-all">
-              Contact me 📫
-            </h1>
-            <div className="w-40 h-2 bg-green-500 rounded-full" />
-            <div className="w-40 h-2 bg-indigo-500 rounded-full translate-x-2" />
-          </div>
+          <Title text={"Contact me 📫"} />
         </Link>
       </div>
       <div className="relative">
