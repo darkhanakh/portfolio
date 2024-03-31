@@ -3,10 +3,11 @@ import Header from "@/app/(home)/components/Header";
 import Hero from "@/app/(home)/components/Hero";
 import Skills from "@/app/(home)/components/Skills";
 import Projects from "@/app/(home)/components/Projects";
+import Footer from "@/app/(home)/components/Footer";
 
 const Page = () => {
   return (
-    <div className="min-h-[400vh] bg-black overflow-hidden">
+    <div className="min-h-screen bg-black overflow-hidden">
       <div className="dark:bg-black bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] relative">
         <div className="max-w-7xl mx-auto p-5">
           <Header />
@@ -17,6 +18,7 @@ const Page = () => {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
         <Projects />
+        <Footer />
       </div>
     </div>
   );

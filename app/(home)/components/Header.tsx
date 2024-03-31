@@ -2,6 +2,7 @@ import React from "react";
 import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 import { IconType } from "react-icons";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 interface Social {
   label: string;
@@ -9,7 +10,11 @@ interface Social {
   icon: IconType;
 }
 
-const Header = () => {
+interface HeaderProps {
+  className?: string;
+}
+
+const Header: React.FC<HeaderProps> = ({ className }) => {
   const socials: Social[] = [
     {
       label: "GitHub",
@@ -29,7 +34,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="py-10 flex justify-between items-center">
+    <nav className={cn("py-10 flex justify-between items-center", className)}>
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
         darkhanakh 🧑🏻‍💻
       </h1>

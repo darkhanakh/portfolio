@@ -57,12 +57,7 @@ const Projects = () => {
         {projects.map((project, index) => {
           return (
             <Link href={project.github} key={index}>
-              <div
-                className={cn(
-                  "p-5 rounded-md h-full border-2",
-                  project.background
-                )}
-              >
+              <div className={cn("p-5 rounded-md h-full border-2")}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full h-full space-y-5 cursor-pointer"
