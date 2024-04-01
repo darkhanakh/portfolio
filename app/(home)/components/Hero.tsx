@@ -56,7 +56,17 @@ const Hero: React.FC = () => {
             className="p-3 font-semibold"
           >
             <p className="flex items-center">
-              <FaSuitcase /> <span className="ml-1">Available for work</span>
+              <FaSuitcase />{" "}
+              <Link
+                className="ml-1"
+                href="/Darkhan_Akhmetov_Resume.pdf"
+                locale={false}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                Available for work
+              </Link>
             </p>
           </MovingBorderButton>
         </div>
