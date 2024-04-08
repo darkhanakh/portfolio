@@ -1,0 +1,57 @@
+ [
+    {
+      "position": "Education Mentor",
+      "start_date": "May 2023",
+      "end_date": "Oct 2023",
+      "organization": "OlScience Circles",
+      "location": "Almaty, KZ",
+      "responsibilities": [
+        "Provided personalized guidance and support to students enrolled in OlScience Circles’ frontend development programs.",
+        "Empowered aspiring developers to build a strong foundation in HTML, CSS, JavaScript, and other frontend technologies."
+      ]
+    },
+    {
+      "position": "Team Captain",
+      "start_date": "Jan 2023",
+      "end_date": "Sep 2023",
+      "organization": "BalgaMenShege",
+      "location": "Almaty, KZ",
+      "responsibilities": [
+        "Led a young but highly promising robotics team as the Captain of the FTC BalgaMenShege team.",
+        "Developed and executed FTC projects with a dedicated team.",
+        "Orchestrated successful collaborations and ensured clear roles and responsibilities for team members.",
+        "Fostered a culture of professionalism and encouraged ethical behavior and respectful communication.",
+        "Implemented efficient project management strategies resulting in timely completion of tasks and meeting project milestones.",
+        "Guided the team in designing and building competitive robots leveraging technical expertise in robotics.",
+        "Represented the team at competitions with strong sportsmanship and professionalism."
+      ]
+    },
+    {
+      "position": "Fullstack Development Intern",
+      "start_date": "Jun 2023",
+      "end_date": "Aug 2023",
+      "organization": "nFactorial Incubator",
+      "location": "Almaty, KZ",
+      "responsibilities": [
+        "Selected as one of the 75 individuals out of over 4,100 applicants from across Kazakhstan and Central Asia.",
+        "Developed skills in Machine Learning, Artificial Intelligence (AI), and other areas.",
+        "Led the development of Readme.GPT, a tool leveraging Natural Language Processing (NLP) to generate high-quality README files for software projects."
+      ]
+    },
+    {
+      "position": "Vue.js Frontend Engineer",
+      "start_date": "November 2020",
+      "end_date": "July 2021",
+      "organization": "UnApp Startup",
+      "location": "Almaty, KZ",
+      "responsibilities": [
+        "Collaborated with a talented team of developers and designers to develop intuitive and user-friendly features using Vue.js framework.",
+        "Built responsive interactive web interfaces to ensure a seamless user experience.",
+        "Implemented efficient data handling and integration with APIs to facilitate smooth data flow and synchronization.",
+        "Optimized performance and scalability of the application to handle large volumes of user data and traffic.",
+        "Conducted code reviews and provided constructive feedback to maintain high code quality and adherence to best practices.",
+        "Participated in agile development processes, contributing to sprint planning, and ensuring timely delivery of project milestones."
+      ]
+    }
+  ]
+
