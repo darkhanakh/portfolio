@@ -6,7 +6,7 @@
 		"export": "next export",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint --ignore-build"
 	},
 	"dependencies": {
 		"@floating-ui/react-dom": "^2.1.1",
